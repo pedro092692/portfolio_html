@@ -18,9 +18,72 @@
 }
 /* end custom fonts */
 
+/*body styles*/
+
+html {
+    scroll-behavior: smooth;
+}
+  
 
 body{
     background-image: url(../img/bg.svg);
-    background-position: center;
-    background-size: cover;
+    background-size: cover; 
+    font-family: 'sf-ui-display';
+    margin: 0;
+    padding: 0;
+    color: white;
 }
+
+/*end body styles*/
+
+/* hero section */
+.hero{
+    height: 100vh;
+    color: white;
+    display: flex;
+}
+
+.hero .container{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* nav section */
+.container nav{
+    width: 100%;
+}
+
+.container nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 32px;
+    margin: 0;
+}
+
+nav ul li{
+    list-style: none;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+ul a{
+    color: inherit;
+    text-decoration: none;
+}
+/* end nav section */
+
+/* logo */
+.container .logo h1{
+    font-size: 12rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* end logo */
+
+/* end hero section */
