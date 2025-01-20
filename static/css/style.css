@@ -164,7 +164,31 @@ p, h2{
 .card img{
     max-height: 250px;
     border-radius: 8px;
+    object-fit: cover;
 }
 
 /* end work section */
 
+/* contact section */
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    min-height: 400px;
+    padding: 0px 32px;
+}
+
+.contact .contact-container{
+    flex-grow: 1;
+    padding-top: 32px;
+    display: flex;
+    gap: 32px;
+    align-items: start;
+    justify-content: center;
+}
+
+.contact-container > img{
+    cursor: pointer;
+}
+
+/* end contact section */
