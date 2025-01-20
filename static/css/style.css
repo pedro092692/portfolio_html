@@ -192,3 +192,42 @@ p, h2{
 }
 
 /* end contact section */
+
+@media (max-width: 1368px){
+
+    nav ul li{
+        font-size: 16px;
+    }
+    .container .logo h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .about, .work, .contact{
+        margin-top: 32px;
+        padding: 0px 16px;
+    }
+
+    .work{
+        gap: 24px;
+    }
+
+    .work .container-work{
+        grid-template-columns: 1fr;
+        margin-bottom: 32px;
+        gap: 48px;
+    }
+
+    .card img{
+        max-width: 300px;
+    }
+
+    .container-work a .card{
+        min-height: auto;
+        align-items: center;
+    }
+
+    .card h3{
+        font-size: 32px;
+    }
+}
