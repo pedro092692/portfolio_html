@@ -87,3 +87,35 @@ ul a{
 /* end logo */
 
 /* end hero section */
+
+/* h2 styles */
+section > h2{
+    font-size: 64px;
+    font-weight: 200;
+    text-transform: capitalize;
+}
+
+/* end h2 styles */
+
+/* about section */
+
+.about{
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    background-color: black;
+    padding: 0px 32px;
+    gap: 16px;
+}
+
+p, h2{
+    margin: 0;
+}
+
+.about p{
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 160%;
+}
+
+/* end about section */
